@@ -9,7 +9,7 @@ const CardConstructor = ({details}) => {
         return (
            <div className="user-card-container">
                {details.map(item => (
-                   <Card key={item.id} details={item} />
+                   <Card key={item.id} details={item}/>
                ))}
            </div>
         )
